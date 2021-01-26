@@ -1,0 +1,153 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #f5f7fa;
+    padding: 20px;
+}
+
+.wrapper{
+    background: #ffffff;
+    max-width: 1200px;
+}
+
+.menu{
+    background: #f0d6d6;
+    display: flex;
+    box-sizing: border-box;
+    align-content: center;
+}
+
+.menu_title{
+    display: table-cell;
+    text-align: center;
+}
+
+.home_menu{
+    display: table-cell;
+    width: 100%;
+    margin: 5px;
+    text-align: center;
+}
+
+.skills_menu{
+    display: table-cell;
+    width: 100%;
+    margin: 5px;
+    text-align: center;
+}
+
+.experience_menu{
+    display: table-cell;
+    width: 100%;
+    margin: 5px;
+    text-align: center;
+}
+
+.educations_menu{
+    display: table-cell;
+    width: 100%;
+    margin: 5px;
+    text-align: center;
+}
+
+.contacts_menu{
+    display: table-cell;
+    width: 100%;
+    margin: 5px;
+    text-align: center;
+}
+
+.about_me_container{
+    background: #ffffff;
+    display: flex;
+
+}
+
+.about_me_container_title{
+    background: #d4ab5f;
+    display: table-column;
+    width: 40%;
+}
+
+.about_me_container_content{
+    background: #929dfd;
+    display: column;
+    width: 100%;
+}
+
+.skills_container{
+    background: #ffffff;
+    display: flex;
+}
+
+.skills_container_title{
+    background: #4db640;
+    display: table-column;
+    width: 40%;
+}
+
+.skills_container_content{
+    background: #a82d67;
+    display: column;
+    width: 100%;
+}
+
+.experience_container{
+    background: #ffffff;
+    display: flex;
+
+}
+
+.experience_container_title{
+    background: #d450b3;
+    display: table-column;
+    width: 40%;
+}
+
+.experience_container_content{
+    background: #3c4ac2;
+    display: column;
+    width: 100%;
+}
+
+.education_container{
+    background: #1cb47a;
+    display: flex;
+
+}
+
+.education_container_title{
+    background: #d4ab5f;
+    display: table-column;
+    width: 40%;
+}
+
+.education_container_content{
+    background: #3ea5a0;
+    display: column;
+    width: 100%;
+}
+
+.contacts_container{
+    background: #b43e3e;
+    display: flex;
+
+}
+
+.contacts_container_title{
+    background: #7c6233;
+    display: table-column;
+    width: 40%;
+}
+
+.contacts_container_content{
+    background: #8d91b4;
+    display: column;
+    width: 100%;
+}

@@ -1,0 +1,109 @@
+{% load static from static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>RESUME</title>
+    <!-- {% block meta_title %}{% endblock meta_title %} -->
+    <meta name="description" value="MY RESUME"/>
+
+    <link rel="stylesheet" href="{{ PORTAL_URL }}{% static 'css/main.css' %}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <H2 class="menu_title">MENU</H2>
+            <div class="home_menu">
+                <h3>HOME</h3>
+            </div>
+
+            <div class="skills_menu"> 
+                <h3>SKILLS</h3>
+            </div>
+
+            <div class="experience_menu"> 
+                <h3>EXPERIENCE</h3>
+            </div>
+
+            <div class="educations_menu"> 
+                <h3>EDUCATION</h3>
+            </div>
+
+            <div class="contacts_menu"> 
+                <h3>CONTACTS</h3>
+            </div>
+
+        </div>
+
+        <div class="main_container">
+
+            <div class="about_me_container">
+
+                <div class="about_me_container_title">
+                    <h3 class="about_me_title">About ME</h3>
+                </div>
+
+                <div class="about_me_container_content">
+                    <h4 class="about_me_content">content</h4>
+                </div>
+
+            </div>
+
+            <div class="skills_container">
+
+                <div class="skills_container_content">
+                    <h4 class="skills_content">content</h4>
+                </div>
+
+                <div class="skills_container_title">
+                    <h3 class="skills_title">Skills</h3>
+                </div>
+
+
+            </div>
+
+            <div class="experience_container">
+
+                <div class="experience_container_title">
+                    <h3 class="experience_title">Experience</h3>
+                </div>
+
+                <div class="experience_container_content">
+                    <h4 class="experience_content">content</h4>
+                </div>
+
+            </div>
+
+            <div class="education_container">
+
+                <div class="education_container_content">
+                    <h4 class="education_content">content</h4>
+                </div>
+
+                <div class="education_container_title">
+                    <h3 class="education_title">Education</h3>
+                </div>
+                
+            </div>
+
+            <div class="contacts_container">
+
+                <div class="contacts_container_title">
+                    <h3 class="contacts_title">Contacts</h3>
+                </div>
+
+                <div class="contacts_container_content">
+                    <h4 class="contacts_content">content</h4>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
