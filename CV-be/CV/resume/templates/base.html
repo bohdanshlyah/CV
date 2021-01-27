@@ -13,95 +13,163 @@
     <link rel="stylesheet" href="{{ PORTAL_URL }}{% static 'css/main.css' %}">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="{{ PORTAL_URL }}{% static 'css/script_scroll.js' %}"></script>
 </head>
 <body>
     <div class="wrapper">
-        <div class="menu">
-            <H2 class="menu_title">MENU</H2>
-            <div class="home_menu">
-                <h3>HOME</h3>
+        <!--<section id="menu">-->
+            <div class="menu" id="menu">
+                <H2 class="menu_title">MENU</H2>
+                <div class="home_menu">
+                    <h3><a href="#home">HOME</a></h3>
+                </div>
+
+                <div class="skills_menu"> 
+                    <h3><a href="#skills">SKILLS</a></h3>
+                </div>
+
+                <div class="experience_menu"> 
+                    <h3><a href="#experience">EXPERIENCE</a></h3>
+                </div>
+
+                <div class="educations_menu"> 
+                    <h3><a href="#education">EDUCATION</a></h3>
+                </div>
+
+                <div class="contacts_menu"> 
+                    <h3><a href="#contacts">CONTACTS</a></h3>
+                </div>
+
             </div>
+        <!--</section>-->
 
-            <div class="skills_menu"> 
-                <h3>SKILLS</h3>
-            </div>
-
-            <div class="experience_menu"> 
-                <h3>EXPERIENCE</h3>
-            </div>
-
-            <div class="educations_menu"> 
-                <h3>EDUCATION</h3>
-            </div>
-
-            <div class="contacts_menu"> 
-                <h3>CONTACTS</h3>
-            </div>
-
-        </div>
-
+        <!-- CONTENT -->
         <div class="main_container">
 
-            <div class="about_me_container">
+            <section id="home">
+                <div class="about_me_container">
 
-                <div class="about_me_container_title">
-                    <h3 class="about_me_title">About ME</h3>
+                    <div class="about_me_container_title">
+                        <h3 class="about_me_title" id="home">ABOUT ME</h3>
+                    </div>
+
+                    <div class="about_me_container_content">
+                        <p class="about_me_content"><b>HELLO!!!</b><br>
+                            I am a SCADA developer. <br>
+                            It's means that I trying to do something, which will simplify people's lives =)<br>
+                            I have 5 years of experience in developing SCADA systems.
+                            I participated in the development and implementation of all levels of SCADA systems 
+                            at substations of such level as 750 KV, 330 KV and 110 KV. Therefore, I have an 
+                            understanding of the entire cycle of implementation of these systems (from the development 
+                            of the terms of reference to the transfer of the system to the customer). Also worked on 
+                            the implementation of BMS. I have experience in the implementation of operational 
+                            interlocking systems and emergency automation.<br>
+                            But lately I realized that I want to develop even more. Therefore, began to study more deeply the programming language Python.<br>
+                            I am not afraid of difficult tasks, and I am ready to study new technologies to implement new projects.</p>
+                    </div>
+
                 </div>
+            </section>
 
-                <div class="about_me_container_content">
-                    <h4 class="about_me_content">content</h4>
+            <section id="skills">
+                <div class="skills_container">
+
+                    <div class="skills_container_content">
+                        <div class="skills_column">
+                            <h4 class="skills_column_title"><b>Programming Languages</b></h4>
+                            <ul>
+                                <li class="skills_item">
+                                    <span>Python</span>
+                                </li>
+                                <li class="skills_item">
+                                    <span>Scil</span>
+                                </li>
+                                <li class="skills_item">
+                                    <span>HTML</span>
+                                </li>
+                                <li class="skills_item">
+                                    <span>CSS</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="skills_column">
+                            <h4 class="skills_column_title"><b>Development Tools</b></h4>
+                            <ul>
+                                <li class="skills_item">
+                                    <span>PyCharm</span>
+                                </li>
+                                <li class="skills_item">
+                                    <span>Visual Studio Code</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="skills_column">
+                            <h4 class="skills_column_title"><b>Hitachi ABB Power Grids</b></h4>
+                        </div>
+                        <div class="skills_column">
+                            <h4 class="skills_column_title"><b>Phoenix Contact</b></h4>
+                        </div>
+                        <div class="skills_column">
+                            <h4 class="skills_column_title"><b>WAGO</b></h4>
+                        </div>
+                        <div class="skills_column">
+                            <h4 class="skills_column_title"><b>MOXA</b></h4>
+                        </div>
+                        <div class="skills_column">
+                            <h4 class="skills_column_title"><b>Monitoring</b></h4>
+                        </div>
+                    </div>
+
+                    <div class="skills_container_title">
+                        <h3 class="skills_title">SKIILS</h3>
+                    </div>
+
+
                 </div>
+            </section>
 
-            </div>
+            <section id="experience">
+                <div class="experience_container">
 
-            <div class="skills_container">
+                    <div class="experience_container_title">
+                        <h3 class="experience_title">Experience</h3>
+                    </div>
 
-                <div class="skills_container_content">
-                    <h4 class="skills_content">content</h4>
+                    <div class="experience_container_content">
+                        <h4 class="experience_content">content</h4>
+                    </div>
+
                 </div>
+            </section>
 
-                <div class="skills_container_title">
-                    <h3 class="skills_title">Skills</h3>
+            <section id="education">
+                <div class="education_container">
+
+                    <div class="education_container_content">
+                        <h4 class="education_content">content</h4>
+                    </div>
+
+                    <div class="education_container_title">
+                        <h3 class="education_title">Education</h3>
+                    </div>
+                    
                 </div>
+            </section>
 
+            <section id="contacts">
+                <div class="contacts_container">
 
-            </div>
+                    <div class="contacts_container_title">
+                        <h3 class="contacts_title">Contacts</h3>
+                    </div>
 
-            <div class="experience_container">
+                    <div class="contacts_container_content">
+                        <h4 class="contacts_content">content</h4>
+                    </div>
 
-                <div class="experience_container_title">
-                    <h3 class="experience_title">Experience</h3>
                 </div>
-
-                <div class="experience_container_content">
-                    <h4 class="experience_content">content</h4>
-                </div>
-
-            </div>
-
-            <div class="education_container">
-
-                <div class="education_container_content">
-                    <h4 class="education_content">content</h4>
-                </div>
-
-                <div class="education_container_title">
-                    <h3 class="education_title">Education</h3>
-                </div>
-                
-            </div>
-
-            <div class="contacts_container">
-
-                <div class="contacts_container_title">
-                    <h3 class="contacts_title">Contacts</h3>
-                </div>
-
-                <div class="contacts_container_content">
-                    <h4 class="contacts_content">content</h4>
-                </div>
-
-            </div>
+            </section>
         </div>
     </div>
 

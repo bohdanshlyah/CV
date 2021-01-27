@@ -13,7 +13,6 @@ body{
 
 .wrapper{
     background: #ffffff;
-    max-width: 1200px;
 }
 
 .menu{
@@ -64,20 +63,31 @@ body{
 }
 
 .about_me_container{
-    background: #ffffff;
+    background: #0c0522;
     display: flex;
-
+    margin-top: 30px;
 }
 
 .about_me_container_title{
-    background: #d4ab5f;
-    display: table-column;
-    width: 40%;
+    display: table-cell;
+    width: 25%;
+    margin: auto;
+}
+
+.about_me_title{
+    text-align: center;
+    color: #ffffff;
 }
 
 .about_me_container_content{
     display: column;
     width: 100%;
+}
+
+.about_me_content{
+    padding: 30px;
+    color: #ffffff;
+    text-align:justify;
 }
 
 .skills_container{
@@ -86,27 +96,46 @@ body{
 }
 
 .skills_container_title{
-    background: #4db640;
-    display: table-column;
-    width: 40%;
+    display: table-cell;
+    width: 25%;
+    margin: auto;
+}
+
+.skills_title{
+    text-align: center;
+    color: #000000;
 }
 
 .skills_container_content{
-    background: #a82d67;
-    display: column;
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
+}
+
+.skills_column{
+    width: auto;
+    margin: 5px;
+}
+
+.skills_column_title{
+    text-align: center;
+}
+.skills_item{
+    color: #7c6233;
+    margin-left: 20%;
 }
 
 .experience_container{
     background: #ffffff;
     display: flex;
+    height: 500px;
 
 }
 
 .experience_container_title{
     background: #d450b3;
     display: table-column;
-    width: 40%;
+    width: 25%;
 }
 
 .experience_container_content{
@@ -118,13 +147,14 @@ body{
 .education_container{
     background: #1cb47a;
     display: flex;
+    height: 500px;
 
 }
 
 .education_container_title{
     background: #d4ab5f;
     display: table-column;
-    width: 40%;
+    width: 25%;
 }
 
 .education_container_content{
@@ -136,13 +166,14 @@ body{
 .contacts_container{
     background: #b43e3e;
     display: flex;
+    height: 500px;
 
 }
 
 .contacts_container_title{
     background: #7c6233;
     display: table-column;
-    width: 40%;
+    width: 25%;
 }
 
 .contacts_container_content{
